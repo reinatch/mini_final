@@ -6,7 +6,7 @@
 /*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 14:51:24 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:50 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/22 12:28:12 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,16 @@ static char	*find_env_var_pos(char *input)
 	{
 		if (*input == '\'')
 			skip_to_closing_quote(&input);
+		if (*input == '\"')
+		{
+			input++;
+			while (*input && *input != '\"')
+			{
+				if (*input == '$' && is_valid_env_var_name_char(input[1]))
+					return (input);
+				input++;
+			}
+		}
 		if (*input == '$' && is_valid_env_var_name_char(input[1]))
 			return (input);
 		input++;
