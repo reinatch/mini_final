@@ -6,7 +6,7 @@
 /*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 16:19:32 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:50 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/22 23:20:37 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,28 +32,30 @@ char	**split_args(char *command)
 		restore_marked_chars(exec_args, ' ');
 	return (exec_args);
 }
-
-static void	remove_quotes(char *str)
+static void remove_quotes(char *str)
 {
-	char	opening_quote;
+    char opening_quote;
+    int quote_found = 1;
 
-	opening_quote = 0;
-	while (*str)
-	{
-		if (is_quote(*str) && !opening_quote)
-		{
-			opening_quote = *str;
-			remove_char_at(str);
-		}
-		if (*str == opening_quote)
-		{
-			opening_quote = 0;
-			remove_char_at(str);
-		}
-		str++;
-	}
+    while (quote_found) {
+        opening_quote = 0;
+        quote_found = 0;
+
+        while (*str) {
+            if (is_quote(*str) && !opening_quote) {
+                opening_quote = *str;
+                remove_char_at(str);
+                quote_found = 1;
+            } else if (*str == opening_quote) {
+                opening_quote = 0;
+                remove_char_at(str);
+                quote_found = 1;
+            } else {
+                str++;
+            }
+        }
+    }
 }
-
 static int	contains_quotes(char *str)
 {
 	if (!str)

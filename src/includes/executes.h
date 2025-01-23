@@ -5,13 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/07 15:41:13 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 00:03:52 by rerodrig         ###   ########.fr       */
+/*   Created: 2024/06/07 15:41:13 by rerodrig          #+#    #+#             */
+/*   Updated: 2025/01/23 00:05:20 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef EXECUTES_H
 # define EXECUTES_H
+
+# include "env_var_list.h"
 
 # define IN 0
 # define OUT 1
