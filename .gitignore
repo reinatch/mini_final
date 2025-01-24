@@ -17,3 +17,4 @@ local.supp
 
 # minishell_tester
 minishell_tester
+/src/main/minishell_copy.c

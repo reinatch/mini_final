@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 13:33:54 by rerodrig          #+#    #+#             */
 /*   Updated: 2025/01/13 09:27:27 by rerodrig         ###   ########.fr       */

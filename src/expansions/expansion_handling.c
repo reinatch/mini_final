@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   expansion_handling.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 14:51:24 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 12:28:12 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/24 11:32:46 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

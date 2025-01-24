@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   env_var_list_utils.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 13:28:45 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/23 18:49:01 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/24 11:42:12 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

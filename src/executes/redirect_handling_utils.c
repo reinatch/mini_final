@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   redirect_handling_utils.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-oli <joao-oli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/22 15:58:26 by joao-oli          #+#    #+#             */
-/*   Updated: 2025/01/21 16:15:43 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/24 11:41:30 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

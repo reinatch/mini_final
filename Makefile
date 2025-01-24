@@ -3,7 +3,7 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+         #
+#    By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/13 12:05:11 by rerodrig          #+#    #+#              #
 #    Updated: 2025/01/23 13:31:27 by rerodrig         ###   ########.fr        #

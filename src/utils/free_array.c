@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   free_array.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-oli <joao-oli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joao-oli <joao-oli@student.42porto.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 17:59:11 by joao-oli          #+#    #+#             */
 /*   Updated: 2025/01/21 16:24:57 by rerodrig         ###   ########.fr       */

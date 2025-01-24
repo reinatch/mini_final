@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   signals.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-oli <joao-oli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joao-oli <joao-oli@student.42porto.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 14:18:39 by joao-oli          #+#    #+#             */
 /*   Updated: 2025/01/22 08:03:50 by rerodrig         ###   ########.fr       */

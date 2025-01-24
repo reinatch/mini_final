@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoll.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-oli <joao-oli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joao-oli <joao-oli@student.42porto.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/05 20:24:06 by joao-oli          #+#    #+#             */
 /*   Updated: 2025/01/21 16:24:57 by rerodrig         ###   ########.fr       */

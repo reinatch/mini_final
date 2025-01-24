@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   minishell copy.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/01 14:51:36 by joao-oli          #+#    #+#             */
 /*   Updated: 2025/01/23 19:19:48 by rerodrig         ###   ########.fr       */

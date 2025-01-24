@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   multiple_commands_utils.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-oli <joao-oli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 19:35:21 by joao-oli          #+#    #+#             */
-/*   Updated: 2025/01/22 00:13:46 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/24 11:41:53 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

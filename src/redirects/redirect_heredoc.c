@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   redirect_heredoc.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 17:09:56 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/21 16:24:57 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/24 11:38:01 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

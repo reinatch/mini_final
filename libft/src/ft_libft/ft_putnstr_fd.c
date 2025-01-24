@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnstr_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 14:01:57 by rerodrig          #+#    #+#             */
 /*   Updated: 2025/01/22 08:03:51 by rerodrig         ###   ########.fr       */
