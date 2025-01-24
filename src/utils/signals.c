@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   signals.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-oli <joao-oli@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: joao-oli <joao-oli@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 14:18:39 by joao-oli          #+#    #+#             */
 /*   Updated: 2025/01/22 08:03:50 by rerodrig         ###   ########.fr       */
@@ -15,6 +15,7 @@
 static void	handle_sigint(int sig)
 {
 	(void)sig;
+	last_exit_status = 130;
 	ft_putstr_fd("\n", STDOUT_FILENO);
 	rl_on_new_line();
 	rl_replace_line("", 0);

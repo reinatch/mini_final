@@ -12,9 +12,10 @@
 
 #include "../includes/minishell.h"
 
+int	last_exit_status;
+
 int	run_minishell(t_env_var_node *env_vars_list)
 {
-	int		last_exit_status;
 	char	*input;
 	char	**commands;
 

@@ -34,6 +34,9 @@
 # include "errors.h"
 # include "executes.h"
 
+// global variables
+extern int	last_exit_status;
+
 // minishell
 int			run_minishell(t_env_var_node *env_var_list);
 

@@ -36,29 +36,51 @@ char	**split_args(char *command)
 static void	remove_quotes(char *str)
 {
 	char	opening_quote;
-	int		quote_found;
 
-	quote_found = 1;
-	while (quote_found)
+	opening_quote = 0;
+	while (*str)
 	{
-		opening_quote = 0;
-		quote_found = 0;
-		while (*str)
+		if (is_quote(*str) && !opening_quote)
 		{
-			if (is_quote(*str))
-			{
-				if (!opening_quote)
-					opening_quote = *str;
-				else
-					opening_quote = 0;
-				remove_char_at(str);
-				quote_found = 1;
-			}
-			else
-				str++;
+			opening_quote = *str;
+			remove_char_at(str);
 		}
+		else if (*str == opening_quote)
+		{
+			opening_quote = 0;
+			remove_char_at(str);
+		}
+		else
+			str++;
 	}
 }
+
+// static void	remove_quotes(char *str)
+// {
+// 	char	opening_quote;
+// 	int		quote_found;
+
+// 	quote_found = 1;
+// 	while (quote_found)
+// 	{
+// 		opening_quote = 0;
+// 		quote_found = 0;
+// 		while (*str)
+// 		{
+// 			if (is_quote(*str))
+// 			{
+// 				if (!opening_quote)
+// 					opening_quote = *str;
+// 				else
+// 					opening_quote = 0;
+// 				remove_char_at(str);
+// 				quote_found = 1;
+// 			}
+// 			else
+// 				str++;
+// 		}
+// 	}
+// }
 
 static int	contains_quotes(char *str)
 {

@@ -37,40 +37,38 @@ int	fits_in_long_long(char *str)
 	return (TRUE);
 }
 
-static void	check_args_error(char **args)
+void	prepare_for_exit(char **args, t_env_var_node **env_var_list)
 {
-	char	*exit_status;
-
-	if (!args || !args[1])
-	{
-		if (args)
-			free_array(args);
-		close_all_fds();
-		exit(EXIT_SUCCESS);
-	}
-	exit_status = args[1];
-	if (!fits_in_long_long(exit_status))
-	{
-		free_array(args);
-		exit_with_error("exit", "numeric argument required", BUILTIN_MISUSE);
-	}
-	if (args[2] != NULL)
-	{
-		free_array(args);
-		exit_with_error("exit", "too many arguments", EXIT_FAILURE);
-	}
+	free_array(args);
+	free_env_var_list(env_var_list);
+	rl_clear_history();
 }
 
 int	exit_builtin(char **args, t_env_var_node **env_var_list)
 {
-	int	exit_status;
+	int		exit_status;
+	char	*exit_status_str;
 
-	rl_clear_history();
-	free_env_var_list(env_var_list);
 	ft_putstr_fd("exit\n", STDOUT_FILENO);
-	check_args_error(args);
+	exit_status = EXIT_SUCCESS;
+	if (args && args[1] != NULL)
+	{
+		exit_status_str = args[1];
+		if (!fits_in_long_long(exit_status_str))
+		{
+			prepare_for_exit(args, env_var_list);
+			exit_with_error("exit", "numeric argument required",
+				BUILTIN_MISUSE);
+		}
+		else
+			exit_status = ft_atoll(exit_status_str);
+	}
+	if (args && args[1] != NULL && args[2] != NULL)
+	{
+		print_error_msg("exit", "too many arguments");
+		return (EXIT_FAILURE);
+	}
+	prepare_for_exit(args, env_var_list);
 	close_all_fds();
-	exit_status = ft_atoll(args[1]);
-	free_array(args);
 	exit(exit_status);
 }

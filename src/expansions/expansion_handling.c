@@ -35,8 +35,8 @@ void	expand_exit_status_var(char **input, int last_exit_status)
 	while (exit_status_var_pos)
 	{
 		*exit_status_var_pos = '\0';
-		ft_strjoin_multiple(input, last_exit_status_str,
-			exit_status_var_pos + 2);
+		ft_strjoin_multiple(input, last_exit_status_str, exit_status_var_pos
+			+ 2);
 		exit_status_var_pos = find_exit_status_var_pos(*input);
 	}
 	free(last_exit_status_str);

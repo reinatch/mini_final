@@ -30,7 +30,7 @@ char	*get_env_var_value(char *env_var)
 	while (env_var[i] != '=' && env_var[i])
 		i++;
 	if (!env_var[i])
-		return (NULL);
+		return (ft_strdup(""));
 	return (&env_var[i + 1]);
 }
 
