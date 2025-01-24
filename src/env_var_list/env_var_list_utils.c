@@ -6,7 +6,7 @@
 /*   By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 13:28:45 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:50 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/23 18:49:01 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,13 +47,18 @@ void	replace_env_var(char *name, char *value, t_env_var_node *env_var_list)
 	t_env_var_node	*aux;
 	char			*new_keypair;
 
-	aux = get_env(name, env_var_list);
-	if (aux)
-		free(aux->env_var);
 	new_keypair = create_env_var(name, value);
-	add_to_env_var_list(&env_var_list, new_keypair);
+	if (!new_keypair)
+		return ;
+	aux = get_env(name, env_var_list);
+	if (!aux)
+	{
+		add_to_env_var_list(&env_var_list, new_keypair);
+		free(new_keypair);
+		return ;
+	}
+	free(aux->env_var);
 	aux->env_var = new_keypair;
-	return ;
 }
 
 size_t	get_env_var_list_size(t_env_var_node *env_var_list)

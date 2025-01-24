@@ -6,7 +6,7 @@
 #    By: rerodrig <rerodrig@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/13 12:05:11 by rerodrig          #+#    #+#              #
-#    Updated: 2025/01/23 01:04:50 by rerodrig         ###   ########.fr        #
+#    Updated: 2025/01/23 13:31:27 by rerodrig         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,7 +70,7 @@ $(OBJ_DIR):
 
 leak: all
 	valgrind --leak-check=full \
-	--show-leak-kinds=all --track-fds=yes --trace-children=yes ./$(NAME)
+	--show-leak-kinds=all --track-fds=yes --suppressions=ignore_readline.supp ./$(NAME)
 
 test: all
 	cd minishell_tester && ./tester
