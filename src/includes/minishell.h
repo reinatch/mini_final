@@ -6,7 +6,7 @@
 /*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/25 13:36:50 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/24 11:39:01 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 01:07:12 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@
 # include "executes.h"
 
 // global variables
-extern int	last_exit_status;
+extern int	g_last_exit_status;
 
 // minishell
 int			run_minishell(t_env_var_node *env_var_list);

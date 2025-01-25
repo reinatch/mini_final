@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/13 12:40:17 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:51 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:35:56 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

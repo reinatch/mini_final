@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   file_descriptors.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao-oli <joao-oli@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 21:29:52 by joao-oli          #+#    #+#             */
-/*   Updated: 2025/01/21 16:24:57 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:39:04 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

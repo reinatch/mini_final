@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   str_utils.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/14 16:50:20 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/21 23:50:20 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:40:05 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

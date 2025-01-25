@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 14:02:46 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:51 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 02:08:13 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

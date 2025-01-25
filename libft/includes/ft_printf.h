@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 10:52:54 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:51 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:35:31 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 15:46:15 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/13 09:26:15 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:37:30 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

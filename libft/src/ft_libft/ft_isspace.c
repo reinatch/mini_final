@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/12 11:50:45 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/10 14:40:28 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:37:19 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 15:47:13 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:50 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:37:53 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

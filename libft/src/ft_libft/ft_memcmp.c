@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 14:01:30 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:51 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 02:05:48 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

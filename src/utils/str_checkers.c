@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   str_checkers.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rerodrig <rerodrig@student.42porto.com>          +#+  +:+       +#+        */
+/*   By: rerodrig <rerodrig@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/25 13:28:39 by rerodrig          #+#    #+#             */
-/*   Updated: 2025/01/22 08:03:50 by rerodrig         ###   ########.fr       */
+/*   Updated: 2025/01/25 00:39:58 by rerodrig         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
